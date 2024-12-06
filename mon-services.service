@@ -1,0 +1,9 @@
+[Unit]
+Description=mon-services
+
+[Service]
+Type=oneshot
+ExecStart=/www/mon-services/mon-services.sh
+
+[Install]
+WantedBy=multi-user.target
