@@ -1,5 +1,5 @@
 # mon-services.sh
-get status service: active - sent GET to https, inactive - nothing<br>
+get status service: active - sent to https, inactive - nothing<br>
 if service reload and restart - writing log<br>
 if host not available - writing log<br>
 
